@@ -17,6 +17,7 @@ public class GildedRose {
     void update_quality_BackstagePasses(Item item) {
         if (item.sellIn <= 0) {
             item.quality = 0;
+            item.sellIn--;
             return;
         }
         item.quality++;
