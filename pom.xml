@@ -47,7 +47,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>GildedRose</mainClass>
+                            <mainClass>App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
