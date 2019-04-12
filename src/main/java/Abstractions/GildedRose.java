@@ -69,10 +69,10 @@ public class GildedRose {
                 continue;
             }
 
-            if (item.name.equals("Conjured Mana Cake")) {       //I never used comments but..
-                update_Conjures(item);        //This block code added to add new class item
-                continue;                               //Conjures
-            }                                         //
+            if (item.name.equals("Conjured Mana Cake")) {
+                update_Conjures(item);
+                continue;
+            }
 
             updateSimple(item);
         }
